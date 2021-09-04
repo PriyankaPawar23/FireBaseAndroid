@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddContact"
+    >
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="25dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Name"
+        android:hint="Enter Name"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="25dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Number"
+        android:layout_below="@id/Name"
+        android:hint="Enter Number"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/AddContact"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/Number"
+        android:layout_centerHorizontal="true"
+        android:text="Add Contact"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_round"/>
+    </RelativeLayout>
+
+</RelativeLayout>

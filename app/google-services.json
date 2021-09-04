@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "626936289424",
+    "project_id": "taskfairshare",
+    "storage_bucket": "taskfairshare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626936289424:android:37cf14a329a95328696015",
+        "android_client_info": {
+          "package_name": "com.android.task_fairshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626936289424-4orv8u97k6l2957g6v91fov9flhunjsq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.task_fairshare",
+            "certificate_hash": "132c72de8bb9dd7292962293a65d61541d5bc6d9"
+          }
+        },
+        {
+          "client_id": "626936289424-hta4522q1p8s3dicas2bd3tfk9fe60v0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCSFQzKkY6wz4zfMtvIW4yqOFlttH5tew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626936289424-hta4522q1p8s3dicas2bd3tfk9fe60v0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
